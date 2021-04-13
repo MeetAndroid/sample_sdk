@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spec.sample">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <activity android:name="com.spec.sample.RedirectUriReceiverActivity" />
+        <activity
+            android:name="com.spec.sample.SampleActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

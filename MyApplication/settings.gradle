@@ -1,0 +1,3 @@
+include ':meet_spec'
+include ':app'
+rootProject.name = "My Application"
